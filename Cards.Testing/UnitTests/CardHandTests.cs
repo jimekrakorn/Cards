@@ -39,7 +39,6 @@ namespace Cards.Testing.UnitTests
         public void AddCard_InvalidCardProvided_FailureCardNothingAddedCardToHand()
         {
             // Arrange
-            var deck = new DeckOfCards(true);
             var cardHand = new CardHand();
 
             // Act
