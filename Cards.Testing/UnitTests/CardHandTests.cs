@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Cards.Testing.UnitTests
 {
     [TestClass]
-    public class CardHandTests
+    public class CardHandTests 
     {
         [TestMethod]
         public void CardHand_DefaultOptions_SuccessCardHandCreatedWithNoCards()
